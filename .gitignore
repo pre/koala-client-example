@@ -1,0 +1,7 @@
+._*
+.DS_Store
+config/*.pem
+config/database.yml
+vendor/plugins/koala-client
+tmp/*
+log/*
