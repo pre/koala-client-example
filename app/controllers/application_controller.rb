@@ -20,11 +20,7 @@ class ApplicationController < ActionController::Base
     true
     #["rengastaja", "maallikko", "rengastuskeskus"].include?(session[:user_type])
   end
-  
-  def set_user_variable
-    @user = {:name => "Lol Cat", :email => "long@lol.cat"}
-  end
-  
+
   def nullify_session
     reset_session
     render :text => "session nullified"
